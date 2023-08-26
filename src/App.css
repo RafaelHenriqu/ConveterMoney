@@ -1,0 +1,104 @@
+:root{
+  --cor1:#191920;
+  --cor2:#00ff7f
+
+}
+
+.App {
+  text-align: center;
+  font-family: monospace;
+ 
+}
+#Desc{
+  font-size: 125%;
+}
+hr{
+  width: 25%;
+  height: 1.5px;
+  background-color: var(--cor2);
+
+}
+
+
+
+
+*{
+  min-height: 0%;
+  min-width: 0%;
+  transition: 1s;
+background-color: var(--cor1);
+color: white;
+}
+.Inputs{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  min-height: 0%;
+}
+
+.Inputs > #Money{
+  
+  background-color: #ffff;
+   color: var(--cor1);
+ 
+  font-size: 170%;
+  background-color: #fcfcfc;
+  border-radius: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: 0px;
+  border: 0px;
+  text-indent: 2%;
+  
+}
+
+ 
+hr:hover{
+  width: 30%;
+  box-shadow: 0px 0px 12px  var(--cor2);
+  height: 2px;
+  
+}
+
+#MoneyInfo{
+  width: 50%;
+  position: absolute;
+  top: 29%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: transparent;
+}
+
+#MoneyInfo > p {
+  font-size: 200%;
+
+}
+
+
+input{
+  width: 100%;
+}
+
+.Moedas{
+  margin-bottom: 1px;
+  font-size: 110%;
+  border-radius: 5px;
+  font-family: serif;
+  margin: 5px;
+}
+
+@media screen and (max-width: 400px) {
+ .Inputs{
+  position: absolute;
+  top: 25%;
+ }
+ #MoneyInfo > p {
+  position:  absolute;
+  top: 25px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+
+}
+ 
+}
